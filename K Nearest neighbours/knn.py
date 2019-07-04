@@ -155,3 +155,4 @@ if __name__ == '__main__':
 		plot_test_data = load_data(X_test,y_test,index_of_features_to_plot)
 		knn = KNN(train_data,3,index_of_features_to_plot)
 		knn.predict_plot(plot_test_data)
+# 	print("done")
